@@ -6,8 +6,8 @@ import { users } from "@/database/schema";
 import { hash } from "bcryptjs";
 import { eq } from "drizzle-orm";
 import { headers } from "next/headers";
-import ratelimit from "../rateLimit";
 import { redirect } from "next/navigation";
+import ratelimit from "../ratelimit";
 
 export const signInWithCredentials = async (
   params: Pick<AuthCredentials, "email" | "password">
