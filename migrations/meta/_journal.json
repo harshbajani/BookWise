@@ -15,6 +15,13 @@
       "when": 1738673552758,
       "tag": "0001_fat_forgotten_one",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1738764870981,
+      "tag": "0002_large_banshee",
+      "breakpoints": true
     }
   ]
 }
